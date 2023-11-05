@@ -12,6 +12,7 @@ check_library_exists(wiringPi wiringPiSetup "" HAVE_WIRINGPI_LIB)
 if (HAVE_WIRINGPI_LIB)
 	message("++ Defined HAVE_WIRINGPI_LIB")
 	add_definitions(-DHAVE_WIRINGPI_LIB)
+	add_definitions(-DCONFIG_ORANGEPI_ZERO2)
 endif()
 
 if (("$ENV{ZYNTHIAN_WIRING_LAYOUT}" STREQUAL "MCP23017_ENCODERS") 
