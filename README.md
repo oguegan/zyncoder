@@ -1,4 +1,4 @@
-# zyncoder library
+# zyncoder library - Fork for OrangePi Zero3
 
 [Zynthian](http://zynthian.org) is an Open Synth Platform based in Raspberry Pi, Linux (Raspbian) and Free Software Synthesizers (mostly).
 
